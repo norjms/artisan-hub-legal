@@ -1,6 +1,6 @@
 # ArtisanHub Installer License Agreement
 
-Version 2, 11 November 2026. Draft, to be reviewed by counsel before general release.
+Version 3, 11 November 2026. Draft, to be reviewed by counsel before general release.
 
 This agreement is between you and James Norman, who develops and owns ArtisanHub ("we", "us"). It covers
 the ArtisanHub installer: the manager container, its screens, its API and its documentation (the
@@ -39,11 +39,13 @@ your backups where you choose. It does not send your data to us, except as this 
 choose to send, such as a diagnostic bundle or optional telemetry where it is offered and you turn it on.
 
 When you accept this agreement, or a new version of it, the Installer sends us a record of that acceptance,
-and we keep it: the agreement's version and fingerprint (a SHA-256 hash of its text), the time you
-accepted, the Installer's version, and a fingerprint of this installation. The installation's fingerprint is
-a one-way SHA-256 hash of the installation's random identifier and the identifier Docker gives this machine;
-it identifies the installation to us without containing either. The record holds nothing else: no names,
-addresses, passwords, answers or data of yours. If it cannot be sent at once, the Installer keeps trying.
+and we keep it in a private repository on GitHub: the agreement's version and fingerprint (a SHA-256 hash
+of its text), the time you accepted, the Installer's version, and a fingerprint of this installation. The
+installation's fingerprint is a one-way SHA-256 hash of the installation's random identifier and the
+identifier Docker gives this machine; it identifies the installation to us without containing either. The
+record holds nothing else: no names, addresses, passwords, answers or data of yours. You can accept only
+while the Installer can reach us to record it; until your acceptance is recorded, the Installer cannot be
+used.
 
 ## 5. Ownership
 
